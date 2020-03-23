@@ -1,7 +1,7 @@
 # Rho
 
 <div align="center">
-    <img width="30%" src="https://raw.githubusercontent.com/deverte/rho/master/img/icon.svg?sanitize=true" />
+    <img width="30%" src="https://raw.githubusercontent.com/deverte/rho/master/img/logo.svg?sanitize=true" />
 </div>
 
 A charting CLI program based on the [psi](https://github.com/deverte/psi) package for `node.js`. The main mission of this program is to build diagrams of quantum mechanical models CTC - D-CTC, P-CTC, T-CTC, but it can also be used to build quantum circuits, and etc.
@@ -10,7 +10,7 @@ Besides building SVG files, you can use it's API (see ["--write" command](#Comma
 
 **Example:**
 <div align="center">
-    <img src="https://raw.githubusercontent.com/wiki/deverte/psi/images/bell.svg?sanitize=true" />
+    <img width="150%" src="https://raw.githubusercontent.com/wiki/deverte/psi/images/bell.svg?sanitize=true" />
 </div>
 
 *Now it is available only `Windows` version. But if there are any requests, I will add the `GNU/Linux` version.*
