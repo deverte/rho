@@ -1,6 +1,6 @@
 # Rho
 
-<div align="center">
+<div width="30%" align="center">
     <img src="https://raw.githubusercontent.com/deverte/rho/master/img/icon.svg?sanitize=true" />
 </div>
 
