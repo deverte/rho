@@ -1,0 +1,23 @@
+{
+  "name": "rho",
+  "version": "0.0.1",
+  "description": "A charting program based on the `psi` package.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "build": "pkg . --output ./releases/0.0.1/single/rho.exe"
+  },
+  "author": "deverte",
+  "license": "MIT",
+  "dependencies": {
+    "jsonminify": "^0.4.1",
+    "psi": "git+https://git@github.com/deverte/psi.git",
+    "ramda": "^0.27.0"
+  },
+  "pkg": {
+    "targets": [
+      "node12"
+    ]
+  },
+  "bin": "main.js"
+}
