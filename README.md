@@ -1,12 +1,17 @@
 # Rho
 
 <div align="center">
-    <img src="?sanitize=true" />
+    <img src="https://raw.githubusercontent.com/deverte/rho/img/icon.svg?sanitize=true" />
 </div>
 
 A charting CLI program based on the [psi](https://github.com/deverte/psi) package for `node.js`. The main mission of this program is to build diagrams of quantum mechanical models CTC - D-CTC, P-CTC, T-CTC, but it can also be used to build quantum circuits, and etc.
 
 Besides building SVG files, you can use it's API (see ["--write" command](#Commands)) to integrate it with other projects.
+
+**Example:**
+<div align="center">
+    <img src="https://raw.githubusercontent.com/wiki/deverte/psi/images/bell.svg?sanitize=true" />
+</div>
 
 *Now it is available only `Windows` version. But if there are any requests, I will add the `GNU/Linux` version.*
 
@@ -29,17 +34,17 @@ Note: Scoop is fully **portable**.
 The most comfortable usage is to download this program using [Scoop](https://scoop.sh/) package manager.
 To do this, you can add this repo and install this program.
 ```sh
-scoop bucket add shell 
+scoop bucket add shell https://github.com/deverte/scoop-shell
 ```
 ```sh
 scoop install rho
 ```
 
 ### Download
-Also you can download a single executable file or full package and use it like portable program.  
-It's recommended to set alias for Rho or add it's path to the PATH environment variable.  
-[Single executable version (exe)](https://github.com/deverte/rho/releases/download/v0.0.1/rho_full_0.0.1.zip)  
-[Full version (zip)](https://github.com/deverte/rho/releases/download/v0.0.1/rho_full_0.0.1.zip)
+Also you can download a single executable file (`rho.exe`) or full package (`rho_full_*.zip`) and use it like portable program.  
+It's recommended to set alias for Rho or add it's path to the PATH environment variable.
+
+[Download](https://github.com/deverte/rho/releases)
 
 
 ## How to build diagrams
