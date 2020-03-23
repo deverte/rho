@@ -1,7 +1,7 @@
 # Rho
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/deverte/rho/img/icon.svg?sanitize=true" />
+    <img src="https://raw.githubusercontent.com/deverte/rho/master/img/icon.svg?sanitize=true" />
 </div>
 
 A charting CLI program based on the [psi](https://github.com/deverte/psi) package for `node.js`. The main mission of this program is to build diagrams of quantum mechanical models CTC - D-CTC, P-CTC, T-CTC, but it can also be used to build quantum circuits, and etc.
